@@ -1,0 +1,85 @@
+js Core 
+//1.1.1
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/1
+
+//1.1.2
+Note: Всегда предпочитайте const перед let. Использование var вовсе нежелательно
+Note: Принятый стиль именования - camelCase
+Note: Создание переменных без идентификатора let/const/var - плохая практика.
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/2
+
+//1.1.3
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/3
+
+//1.1.4
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/4
+function reference() {
+  num();
+}
+
+function type() {
+    const lenght = 12;
+    const num = lenght(10);
+}
+
+//1.1.5
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/5
+
+//1.1.6
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/6
+
+//1.1.7
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/8
+
+//1.1.8
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/8
+
+//1.1.9
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/9
+
+//1.1.10
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/10
+
+//1.1.11
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/11
+
+//1.1.12
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/12
+
+//1.1.13
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/13
+
+//1.1.14
+пройти чуть похже
+
+//1.1.15
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/15
+
+//1.1.16
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/16
+function compareWithPrecision(a, b, precision) {
+    if(a > b){
+        b = Math.floor(b + precision);
+        return a == b;
+    }
+    if(a < b){
+        b = Math.ceil(b - precision);
+        return a == b;
+    }
+}
+
+//1.1.17
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/17
+
+//1.1.18
+function capitalize(str){
+   str = str.toLowerCase();
+   return str.replace(/(^|\s)\S/g, function(a) {return a.toUpperCase()})
+}
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/18
+
+//1.1.19
+
+
+//1.1.20
+https://platform.java-mentor.com/fake/user/2010/courses/1/1/1/20

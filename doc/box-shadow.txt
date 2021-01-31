@@ -1,0 +1,53 @@
+box-shadow:
+[inset] — внутренняя
+5px     — смещение по x
+10px    — смещение по y
+[2px]   — размытие
+[3px]   — растяжение
+[red];    <— цвет
+
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+animation-fill-mode:
+
+селектор {
+	animation-fill-mode: backwards | forwards | both | none;
+}
+
+
+Градиенты:
+
+линейный (создаётся с помощью функции linear-gradient), круговой (создаётся с помощью radial-gradient) и конический (создаётся с помощью функции conic-gradient). 
+Вы можете также создавать повторяющиеся градиенты с помощью функций repeating-linear-gradient, repeating-radial-gradient и repeating-conic-gradient.
+
+.horizontal-gradient {
+  					background: linear-gradient(to right, blue, pink);
+диагональный				background: linear-gradient(to bottom right, blue, pink);
+угол					background: linear-gradient(70deg, blue, pink);
+
+Точки остановки цвета градиента		background: linear-gradient(to left, lime 28px, red 77%, cyan);
+}
+
+none	Если установлена задержка анимации - то в течении времени задержки элемент будет оставаться на месте, а потом скачком перейдет к 0% кадру. 
+После окончания анимации элемент не останется в том состоянии, где остановился, а перепрыгнет в начальное состояние.
+
+backwards	Заставляет элемент двигаться после загрузки страницы к 0% кадру, даже если установлена задержка animation-delay, и оставаться там, 
+пока не начнется анимация. После окончания анимации элемент не останется в том состоянии, где остановился, а перепрыгнет в начальное состояние.
+
+forwards	Указывает браузеру, что после окончания анимации элемент останется в том состоянии, где остановился.
+
+both	Включает в себя backwards и forwards - после загрузки страницы элемент установится к 0% кадру, а после окончания анимации элемент останется там, 
+где остановился.
+
+Значение по умолчанию: none.
+
+
+border-radius: 1px 2px 3px 4px;
+/*
+1px - верхний левый угол
+2px - верхний правый угол
+3px - нижний правый угол
+4px - нижний левый угол
+*/
+
