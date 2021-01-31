@@ -1,0 +1,7 @@
+git init
+git remote add origin url
+git fetch origin
+git reset --mixed origin/master
+git add .
+git commit -m "init"
+git push -u origin master
