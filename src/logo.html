@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Ubuntu:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/site/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/site/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/site/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/site/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/images/site/favicon/safari-pinned-tab.svg" color="#5215ff">
+    <meta name="msapplication-TileColor" content="#0d0c0c">
+    <meta name="theme-color" content="#0d0c0c">
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>-->
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    <link rel="stylesheet" type="text/css" href="/assets/664759ec/slick.css" />
+<link rel="stylesheet" type="text/css" href="/assets/78ae605a/css/datepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/d32d6ddf/style.css" />
+<script type="text/javascript" src="/assets/52646d01/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="/assets/664759ec/slick.min.js"></script>
+<script type="text/javascript" src="/assets/5b862e01/jquery.inputmask.bundle.js"></script>
+<script type="text/javascript" src="/assets/5b862e01/inputmask/phone-codes/phone.js"></script>
+<script type="text/javascript" src="/assets/1ec6947c/TimelineLite.js"></script>
+<script type="text/javascript" src="/assets/1ec6947c/TweenMax.js"></script>
+<script type="text/javascript" src="/assets/78ae605a/js/datepicker.min.js"></script>
+<script type="text/javascript" src="/assets/7a4a3751/jquery.yiiactiveform.js"></script>
+<script type="text/javascript" src="/assets/7838c78b/demo.js"></script>
+<title></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+</head>
+<body><script type="text/javascript" src="/assets/6f5cac3f/recaptcha.js"></script>
+<script type="text/javascript" src="/assets/7838c78b/anime.min.js"></script>
+<script type="text/javascript">
+</script>
+
+<div id="top">
+    <button class="arrow_top-bottom">
+        <svg width="17" height="11" viewBox="0 0 17 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g  transform="translate(-377 -698)">
+                <g id="Vector (Stroke)">
+                    <use xlink:href="#path2_fill" transform="matrix(-6.12321e-17 1 -1 -6.12321e-17 394 698)"/>
+                </g>
+            </g>
+            <defs>
+                <path id="path2_fill" d="M 8.70711 0L 10.1213 1.41421L 3 8.70711L 9.62132 15.5L 8.20711 16.9142L 0 8.70711L 8.70711 0Z"/>
+            </defs>
+        </svg>
+    </button>
+</div>
+<div class="mobile-menu">
+    <nav class="menu menu--ama">
+    <a class="menu__item " href="/katalog-izdeliy/"><span class="menu__item-name">Каталог изделий</span></a><a class="menu__item " href="/oplata-i-dostavka/"><span class="menu__item-name">Оплата и доставка</span></a><a class="menu__item " href="/ceny/"><span class="menu__item-name">Цены</span></a><a class="menu__item " href="/o-nas/"><span class="menu__item-name">О нас</span></a><a class="menu__item " href="/kontakty/"><span class="menu__item-name">Контакты</span></a></nav>
+    <div class="zakaz">
+        <div class="bl">
+            <div class="lay">
+                <a href="/zakaz-fotoknigi/" class="text">
+                    <h4>Ваша уникальная фотокнига
+                        в несколько простых шагов</h4>
+                    <svg width="17" height="18" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g transform="translate(-2137 -423)">
+                            <g >
+                                <use xlink:href="#left0_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 2153.91 440.207)"  />
+                            </g>
+                        </g>
+                        <defs>
+                            <path id="left0_fill" fill-rule="evenodd" d="M 8.70711 0L 10.1213 1.41421L 3.82843 7.70711L 16.9142 7.70711L 16.9142 9.70711L 3.82843 9.70711L 9.62132 15.5L 8.20711 16.9142L 0 8.70711L 8.70711 0Z"/>
+                        </defs>
+                    </svg>
+                </a>
+                <img  class="desktop" src="/images/site/icon/Zakaz%20desctop.svg">
+            </div>
+            <img src="/images/site/dist/_zakaz.jpg">
+        </div>
+
+    </div>
+    <div class="zakaz-mobile">
+        <div class="bl">
+            <a href="/zakaz-fotoknigi/" class="lay">
+                <div class="text">
+                    <h4>Ваша уникальная фотокнига
+                        в несколько простых шагов</h4>
+                    <img  src="/images/site/icon/arrow-right.svg">
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<div class="logo-menu">
+    <a href="/" class="logo">
+        <span class="btn-text" style="    display: flex;">
+            <svg width="82" height="82" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g transform="translate(-2103 -38)">
+                    <g id="Logo">
+                        <g>
+                            <g >
+                                <use xlink:href="#pathLogo0_fill" transform="translate(2107.38 44.2416)" fill="url(#paint0_linear)"/>
+                            </g>
+                            <g >
+                                <use xlink:href="#pathLogo1_fill" transform="translate(2115.5 38.0827)" fill="url(#paint1_linear)"/>
+                            </g>
+                        </g>
+                        <g >
+                            <g >
+                                <use xlink:href="#pathLogo2_fill" transform="translate(2130.33 58.1929)" fill="url(#paint2_linear)"/>
+                            </g>
+                            <g >
+                                <use xlink:href="#pathLogo3_fill" transform="translate(2130.33 64.0827)" fill="#21B814"/>
+                                <use xlink:href="#pathLogo23_fill" transform="translate(2130.33 64.0827)" fill="url(#paint4_linear)"/>
+                            </g>
+                        </g>
+                        <g >
+                            <g>
+                                <use xlink:href="#pathLogo4_fill" transform="translate(2129.05 65.1161)" fill="url(#paint5_linear)"/>
+                            </g>
+                            <g >
+                                <use xlink:href="#pathLogo5_fill" transform="translate(2117.67 65.0747)" fill="#21B814"/>
+                                <use xlink:href="#pathLogo25_fill" transform="translate(2117.67 65.0747)" fill="url(#paint7_linear)"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g >
+                                <use xlink:href="#pathLogo6_fill" transform="translate(2106.11 64.0827)" fill="url(#paint8_linear)"/>
+                            </g>
+                            <g >
+                                <use xlink:href="#pathLogo7_fill" transform="translate(2103 58.1807)" fill="#21B814"/>
+                                <use xlink:href="#pathLogo27_fill" transform="translate(2103 58.1807)" fill="url(#paint10_linear)"/>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <use xlink:href="#pathLogo8_fill" transform="translate(2130 38)" fill="url(#paint11_linear)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-18.9867 -14.5 16.4675 -21.5624 12.4102 28.5395)">
+                        <stop offset="0" stop-color="#0EAB00"/>
+                        <stop offset="0.997609" stop-color="#159400"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.79961e-16 24.4706 -12.7377 1.49839e-15 12.7182 -4.34685e-14)">
+                        <stop offset="0" stop-color="#21B814"/>
+                        <stop offset="1" stop-color="#66CC00"/>
+                    </linearGradient>
+                    <linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(23.9832 7.26238e-09 -11.8863 21.8077 6.6336 -4.09671)">
+                        <stop offset="0" stop-color="#0EAB00"/>
+                        <stop offset="0.997609" stop-color="#159400"/>
+                    </linearGradient>
+                    <linearGradient id="paint4_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-21.5849 -13.9811 17.4647 -26.9629 12.7531 27.3799)">
+                        <stop offset="0" stop-color="#21B814"/>
+                        <stop offset="1" stop-color="#66CC00"/>
+                    </linearGradient>
+                    <linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.99579 23.5 -15.7947 27.398 7.86293 -12.3151)">
+                        <stop offset="0" stop-color="#0EAB00"/>
+                        <stop offset="0.997609" stop-color="#159400"/>
+                    </linearGradient>
+                    <linearGradient id="paint7_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(7.11322 -25.0188 11.4461 3.25427 -1.50451 23.2981)">
+                        <stop offset="0" stop-color="#21B814"/>
+                        <stop offset="1" stop-color="#66CC00"/>
+                    </linearGradient>
+                    <linearGradient id="paint8_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-20.4856 13.5 -12.8153 -24.1776 26.8225 13.0061)">
+                        <stop offset="0" stop-color="#0EAB00"/>
+                        <stop offset="0.909881" stop-color="#159400"/>
+                    </linearGradient>
+                    <linearGradient id="paint10_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(23.0566 7.93792e-08 -6.42024e-07 44.4017 3.21012e-07 -15.891)">
+                        <stop offset="0" stop-color="#21B814"/>
+                        <stop offset="1" stop-color="#66CC00"/>
+                    </linearGradient>
+                    <linearGradient id="paint11_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-23.9991 3.27744 -50.44 -39.1335 46.2026 36.1572)">
+                        <stop offset="0" stop-color="#4D55FA"/>
+                        <stop offset="1" stop-color="#9F63FF"/>
+                    </linearGradient>
+                    <path id="pathLogo0_fill" d="M 7.34781 0.0826708C 7.02937 0.0413353 6.71092 0 6.35267 0C 4.99929 0 3.72552 0.45469 2.61097 1.24006C -0.215219 3.3895 -0.852106 7.52305 1.21778 10.4579C 1.85466 11.3672 2.69058 12.0699 3.76532 12.566L 4.00416 12.69C 4.04396 12.69 4.08377 12.7313 4.12357 12.7313C 4.28279 12.7726 4.44201 12.8553 4.60124 12.8967C 4.68085 12.938 4.80026 12.938 4.87987 12.9793L 4.95949 12.9793L 20.8418 18.3529L 8.12397 0.161344L 7.34781 0.0826708Z"/>
+                    <path id="pathLogo1_fill" d="M 12.7182 6.28298L 12.6784 5.91097C 12.559 4.71224 12.1609 3.63752 11.524 2.72814C 10.3299 1.03339 8.4192 0 6.38912 0C 5.03574 0 3.76197 0.45469 2.64741 1.24006C 1.29403 2.27345 0.378506 3.80286 0.0998685 5.49761L 0 6.32034L 12.6784 24.4706L 12.6784 6.90302C 12.7182 6.655 12.7182 6.44833 12.7182 6.28298Z"/>
+                    <path id="pathLogo2_fill" d="M 21.2163 12.4208C 22.7289 11.6355 23.8434 10.2714 24.3609 8.61797C 24.8784 6.92321 24.759 5.14579 23.9629 3.57505C 23.2066 2.0043 21.893 0.846907 20.261 0.309547C 19.226 -0.0211368 18.1115 -0.103807 16.9969 0.144206L 16.8377 0.185541C 16.5591 0.309547 16.2804 0.392219 16.0416 0.433554L 15.9222 0.474889L 15.8824 0.474889L 15.8426 0.516224L 0 5.88983L 20.5004 12.7922L 21.2163 12.4208Z"/>
+                    <path id="pathLogo3_fill" d="M 10.429 14.9221L 10.5086 15.0461C 11.2649 15.9141 12.1805 16.5755 13.2154 16.9062C 13.8523 17.1129 14.529 17.2369 15.1659 17.2369C 17.9124 17.2369 20.3406 15.4181 21.2163 12.69C 21.7338 11.0366 21.6143 9.25913 20.858 7.68839L 20.5005 6.90236L 0 0L 9.79213 14.0127C 10.031 14.3021 10.23 14.5914 10.429 14.9221Z"/>
+                    <path id="pathLogo4_fill" d="M 10.5086 15.0048L 10.4688 14.9634L 10.3892 14.8808C 10.1902 14.6327 10.031 14.3847 9.87175 14.1367L 0 -6.30729e-07L 0 22.4038L 0.557276 22.9825C 1.75144 24.2226 3.34365 24.8839 5.01548 24.8839C 8.51836 24.8839 11.3445 21.9078 11.3445 18.3116C 11.3445 17.1542 11.0659 16.0381 10.5086 15.0048Z"/>
+                    <path id="pathLogo5_fill" d="M 1.55241 14.054C 1.31358 14.4261 1.07475 14.7567 0.835914 15.0874C 0.278638 16.1208 6.07383e-07 17.1955 6.07383e-07 18.3116C 6.07383e-07 21.9491 2.86599 24.8839 6.36887 24.8839C 8.0407 24.8839 9.63292 24.2225 10.8271 22.9825L 11.3844 22.4038L 11.3844 0L 1.55241 14.054Z"/>
+                    <path id="pathLogo6_fill" d="M 1.04717 6.90237L 0.656789 7.68838C 0.497568 7.97773 0.378152 8.30842 0.298541 8.6391C -0.0995136 9.96183 -0.0995136 11.3672 0.298541 12.69C 1.37329 16.1621 4.95578 18.0636 8.29943 16.9062C 9.33437 16.5755 10.2499 15.9141 11.0062 15.0461L 11.1654 14.8394C 11.2052 14.7981 11.2052 14.7567 11.245 14.7154C 11.3246 14.5501 11.4441 14.4261 11.5237 14.302C 11.5635 14.2194 11.6431 14.1367 11.6829 14.054L 11.7227 14.0127L 21.5546 0L 1.04717 6.90237Z"/>
+                    <path id="pathLogo7_fill" d="M 8.57807 0.445672C 8.33924 0.363001 8.14021 0.280331 7.98099 0.238995L 7.62274 0.156324C 6.50819 -0.0916885 5.39364 -0.050354 4.35869 0.321665C 2.44803 0.983032 0.935428 2.55378 0.298541 4.57921C -0.0995136 5.90195 -0.0995136 7.30735 0.298541 8.63008C 0.816011 10.2835 1.93056 11.6476 3.44317 12.4329L 4.15241 12.8043L 24.6595 5.90195L 8.57807 0.445672Z"/>
+                    <path id="pathLogo8_fill" fill-rule="evenodd" d="M 12.6184 5.53895L 12.7378 6.36565L 12.7104 6.40496L 13.4937 6.28297L 13.6016 6.27042C 13.9167 6.23366 14.2026 6.20029 14.4888 6.20029C 15.8423 6.20029 17.1558 6.61365 18.2305 7.44036C 19.6238 8.47374 20.4995 10.0032 20.7781 11.7392C 21.0566 13.4753 20.6587 15.2528 19.6636 16.6582C 19.0266 17.5675 18.1509 18.2702 17.116 18.7663L 16.8772 18.8489C 16.5588 18.9316 16.28 19.0143 15.9617 19.1383L 0.0595703 24.5524L 0 7.19236L 0 7.10969L 0 6.15898L 0.0397949 5.91096C 0.15918 4.71224 0.557373 3.63752 1.19409 2.72814C 2.38843 1.03339 4.29907 0 6.3291 0C 7.68237 0 8.99609 0.413353 10.0708 1.24006C 11.4241 2.27345 12.3396 3.80286 12.6184 5.53895Z"/>
+                </defs>
+            </svg>
+        </span>
+    </a>
+    <button class="menu-button desktop ">
+        <img class="menu_img" src="/images/site/icon/menu.png">
+        <img class="close" src="/images/site/icon/close.svg">
+    </button>
+    <button class="menu-button mobile ">
+        <div class="menuFive">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </button>
+</div>
+<!--
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                            </div>
+        </div>
+    </div>
+    --><div class="button-foot" id="bottom">
+    <a href="/zakaz-fotoknigi/" class="btn&#45;&#45;blue_orange"><span class="btn-text">Заказать фотокнигу</span></a>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="main-slider">
+                        <img src="/data/slider/origin/5e7b3f6135a6e.jpg" alt="Фотокниги для профессионалов" title="Фотокниги для профессионалов">
+                        <img src="/data/slider/origin/5e7b6d2fcf2c4.jpg" alt="Фотокниги для профессионалов" title="Фотокниги для профессионалов">
+                        <img src="/data/slider/origin/5e7b6df08ea04.jpg" alt="Фотокниги для профессионалов" title="Фотокниги для профессионалов">
+                        <img src="/data/slider/origin/5e7b6e38c825d.jpg" alt="Фотокниги для профессионалов" title="Фотокниги для профессионалов">
+                        <img src="/data/slider/origin/5e7e0361c4d90.jpg" alt="Фотокниги для профессионалов" title="Фотокниги для профессионалов">
+                    </div>
+        <div class="main-text">
+            <div class="text">
+
+                <h1>Фотокниги для профессионалов</h1>
+                <p>Фотокниги, разработанные специально для фотографов. Безупречное качество печати, аккуратный переплет и доступные цены. Идеальное решение для оформления вашей работы.</p>            </div>
+            <div class="sale">
+                <div class="item">
+    <img src="/data/blocks/8/SE4eFBT1AHb1bX3vQERt.svg">
+    <span>Дарим скидку -20% для первого заказа</span>
+</div>            </div>
+        </div>
+    </div>
+    <div class="sale-mobile">
+        <div class="item">
+    <img src="/data/blocks/8/SE4eFBT1AHb1bX3vQERt.svg">
+    <span>Дарим скидку -20% для первого заказа</span>
+</div>    </div>
+    <div class="blocks">
+        <div class="item first-block">
+            <div class="text">
+    <h2>Виды изделий</h2>
+    <p>Фотокниги, разработанные специально для фотографов.
+                    Безупречное качество печати, аккуратный переплет
+                    и доступные цены.
+                    Идеальное решение для оформления вашей работы.
+</p></div>        </div>
+        <a class="item catalog-block" href="/katalog-izdeliy/fotopechat"><img src="/data/catalog/tree/original/5e88a8dc3f826.jpg"/>
+                        <div class="lay">
+                            <div class="text">
+                                <h3>Фотопечать</h3>
+                                <img class="arrow" src="/images/site/icon/arrow-right.svg">
+                            </div>
+                        </div></a><a class="item catalog-block" href="/katalog-izdeliy/fotokniga-v-zhurnalnoy-oblozhke"><img src="/data/catalog/tree/original/5a9ec6b040c87.jpg"/>
+                        <div class="lay">
+                            <div class="text">
+                                <h3>Фотокнига в журнальной обложке</h3>
+                                <img class="arrow" src="/images/site/icon/arrow-right.svg">
+                            </div>
+                        </div></a><a class="item catalog-block" href="/katalog-izdeliy/fotokniga-v-knizhnoy-oblozhke"><img src="/data/catalog/tree/original/5a9ec710840b9.jpg"/>
+                        <div class="lay">
+                            <div class="text">
+                                <h3>Фотокнига в книжной обложке</h3>
+                                <img class="arrow" src="/images/site/icon/arrow-right.svg">
+                            </div>
+                        </div></a><a href="/katalog-izdeliy/" class="btn--white_blue btn-catalog">Перейти в каталог</a>
+    </div>
+    <div class="blocks">
+        <div class="item first-block">
+            <div class="text">
+    <h2>Сроки изготовления</h2>
+    <p>Фотокниги, разработанные специально для фотографов.
+                    Безупречное качество печати, аккуратный переплет
+                    и доступные цены.
+                    Идеальное решение для оформления вашей работы.
+                </p></div>        </div>
+        <div class="two-blocks item">
+            <div class="block">
+                <h3><img src="/images/site/icon/speed.svg">Срочный заказ </h3>
+                <div class="items">
+                    <div class="it">
+    <h4>Фотокниги</h4>
+    <div class="rw">
+        <p>1-3 дня</p><p>1500 руб.</p>    </div>
+</div><div class="it">
+    <h4>Фотопечать</h4>
+    <div class="rw">
+        <p>1 день</p><p>от 25 руб.</p>    </div>
+</div>                </div>
+            </div>
+            <div class="block">
+                <h3><img src="/images/site/icon/calendar.svg">Стандартные сроки  </h3>
+                <div class="items">
+                    <div class="it">
+    <h4>Фотокниги</h4>
+    <div class="rw">
+        <p>7 дней
+</p>    </div>
+</div><div class="it">
+    <h4>Фотопечать </h4>
+    <div class="rw">
+        <p>2-3 дня</p><p><br></p>    </div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blocks">
+        <h2>Процесс заказа фотокниги</h2>
+        <div class="punkts">
+            <hr align="center" />
+            <a href="/katalog-izdeliy/" class="item">
+    <div class="main-text">
+                <img src="/data/blocks/12/Hpoop0jx2JCAW2rMXVnP.svg">
+                <div class="text">
+            <h4>1. Выберите нужный формат изделия</h4>
+            <p>Загрузите макет  и
+                            отправьте его напрямую
+                            в печать. Перед этим изучите требования
+                            к печати.</p>        </div>
+    </div>
+    <div class="a" ><span>Перейти к каталогу</span>
+        <svg width="17" height="18" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g transform="translate(-2137 -423)">
+                <g >
+                    <use xlink:href="#left0_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 2153.91 440.207)" />
+                </g>
+            </g>
+            <defs>
+                <path id="left0_fill" fill-rule="evenodd" d="M 8.70711 0L 10.1213 1.41421L 3.82843 7.70711L 16.9142 7.70711L 16.9142 9.70711L 3.82843 9.70711L 9.62132 15.5L 8.20711 16.9142L 0 8.70711L 8.70711 0Z"/>
+            </defs>
+        </svg>
+    </div>
+</a><a href="#"  data-action="modal" data-toggle="#demand-modal" class="item">
+    <div class="main-text">
+                <img src="/data/blocks/13/rPuXdJoSE6bOyTrtjBg5.svg">
+                <div class="text">
+            <h4>2. Загрузите свой шаблон</h4>
+            <p>Загрузите макет и отправьте его напрямую в печать. Перед этим изучите требования к печати.</p>        </div>
+    </div>
+    <div class="a" ><span>Требования к макету</span>
+        <svg width="17" height="18" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g transform="translate(-2137 -423)">
+                <g >
+                    <use xlink:href="#left0_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 2153.91 440.207)" />
+                </g>
+            </g>
+            <defs>
+                <path id="left0_fill" fill-rule="evenodd" d="M 8.70711 0L 10.1213 1.41421L 3.82843 7.70711L 16.9142 7.70711L 16.9142 9.70711L 3.82843 9.70711L 9.62132 15.5L 8.20711 16.9142L 0 8.70711L 8.70711 0Z"/>
+            </defs>
+        </svg>
+    </div>
+</a><a href="#" data-action="modal" data-toggle="#condition-modal" class="item">
+    <div class="main-text">
+                <img src="/data/blocks/14/Kbgnc7vyvlBl2mDXC7d6.svg">
+                <div class="text">
+            <h4>3. Наслаждайтесь готовым изделием</h4>
+            <p>Фотокниги, разработанные специально для фотографов. Безупречное качество печати, аккуратный переплет и доступные цены. </p>        </div>
+    </div>
+    <div class="a" ><span>Условия оплаты и доставки</span>
+        <svg width="17" height="18" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g transform="translate(-2137 -423)">
+                <g >
+                    <use xlink:href="#left0_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 2153.91 440.207)" />
+                </g>
+            </g>
+            <defs>
+                <path id="left0_fill" fill-rule="evenodd" d="M 8.70711 0L 10.1213 1.41421L 3.82843 7.70711L 16.9142 7.70711L 16.9142 9.70711L 3.82843 9.70711L 9.62132 15.5L 8.20711 16.9142L 0 8.70711L 8.70711 0Z"/>
+            </defs>
+        </svg>
+    </div>
+</a>        </div>
+    </div>
+    <div id="hid" class="blocks contacts">
+        <div class="item first-block">
+            <div class="text">
+                <h2>Контакты</h2>
+                                    <p style="margin: 0"<p>Мы работаем с 9:00 до 21:00 ежедневно</p></p>
+                            </div>
+            <div class="items">
+                                <div class="it">
+                    <h4>Адрес:</h4>
+                    <div class="rw">
+                        <span>г. Москва, </span>
+                    </div>
+                </div>
+                                <div class="it">
+                    <h4>Телефон:</h4>
+                    <div class="rw">
+                                            <span class="tel">+7 (846) 73-87-36</span>
+                                            <span class="tel">+7 (846) 73-87-36</span>
+                                        </div>
+                </div>
+                                <div class="it">
+                    <h4>E-mail:</h4>
+                    <div class="rw">
+                        <a href="mailto:photobook@mail.ru" class="email"><span class="email">photobook@mail.ru</span></a>
+                    </div>
+                </div>
+                                <div class="it">
+                    <button data-toggle="#question-modal" data-action="modal" class="btn--orange_blue"><span class="btn-text">Написать нам</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+                            <div id="map-1"
+     style="
+     width: 100%;     height: 100%;         ">
+</div>
+
+
+<script src="//api-maps.yandex.ru/2.1/?lang=ru&coordorder=longlat"></script>
+<script>
+    var _map;
+    ymaps.ready(function () {
+        _map = new ymaps.Map("map-1",
+            {
+                center: [55.76, 37.64],
+                zoom: 10,
+                type: "yandex#map",
+                controls: ["fullscreenControl", "searchControl", "zoomControl", "typeSelector"]
+            });
+
+        //добавляем точки
+        _map.geoObjects.add(createPlacemark([37.62261253840412,55.74656662489781], ''));
+        //устанавливаем область видимости
+        _map.setBounds([ [24.603813710279294,48.912330726670994], [50.619438710279304,61.37009957267402]]);
+    });
+    //создать метку на карте
+    function createPlacemark(coords, iconContent, balloonContent) {
+        var placemark = new ymaps.Placemark(coords, {
+            iconContent: iconContent,            balloonContent: '<img src="" alt="">',
+        }, {
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '/images/Placeholder.svg',
+            // Размеры метки.
+            iconImageSize: [100, 50],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-50, -50]
+        });
+        return placemark;
+    }
+</script>
+                    </div>
+    </div>
+
+<div class="footer">
+    <div class="left-block">
+        <span class="item">2018 © photobook.ru | Все права защищены.</span>
+        <a target="_blank" href="/politika-konfidencialnosti/" class="item">Политика конфиденциальности</a>
+        <a data-action="modal" data-toggle="#demand-modal" href="" class="item">Требования к макетам фотокниги</a>
+        <a data-toggle="#question-modal" data-action="modal" href="" class="item">Написать нам</a>
+    </div>
+    <div class="right-block">
+        <div class="item">
+            <a target="_blank" href="http://ideaweblab.com/">Разработка и продвижение</a>
+            <a target="_blank" href="https://ideahost.by/">Хостинг</a>
+        </div>
+        <div class="item">
+            <img src="/images/site/icon/iwl.svg" />
+            <a target="_blank" href="http://iwl.by/">IWL</a>
+        </div>
+    </div>
+</div>
+</div>
+<!--Модальное окно цен-->
+<div id="price-modal" class="price-modal mdl">
+    <div class="mdl-content">
+        <h2>Стоимость изделий</h2>
+        <div class="block"><h3>Фотопечать</h3><div class="table"><div class="table-content">
+    <table><tbody><tr><td>Размер фотографии (бумага Fuji)</td><td>Цена руб. за 1 шт.</td></tr><tr><td>10х15</td><td>15</td></tr><tr><td>15х20</td><td>25</td></tr><tr><td>20х30</td><td>75</td></tr><tr><td>30х40</td><td>130</td></tr><tr><td>30х60</td><td>200</td></tr><tr><td>30х90</td><td>300</td></tr></tbody></table><table><tbody><tr><td>Размер фотографии<br>( струйная фотопечать)</td><td>Цена руб. за 1 шт.</td></tr><tr><td>30х40</td><td>100</td></tr><tr><td>40х60</td><td>180</td></tr><tr><td>60х80</td><td>350</td></tr><tr><td>60х90</td><td>370</td></tr></tbody></table></div>
+
+</div></div><div class="block"><h3>Фотокнига в журнальной обложке</h3><div class="table"><div class="head" data-toggler="table" >
+                            <h4>15 x 20</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <table>
+                    <tbody><tr>
+                        <td>Кол-во разворотов</td>
+                        <td>Цена руб.</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>160</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>160</td>
+                    </tr>
+                </tbody></table></div>
+
+</div><div class="table"><div class="head" data-toggler="table" >
+                            <h4>20 x 20</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <table>
+<tbody>
+<tr>
+	<td>Кол-во разворотов
+	</td>
+	<td>Цена руб.
+	</td>
+</tr>
+<tr>
+	<td>1
+	</td>
+	<td>160
+	</td>
+</tr>
+<tr>
+	<td>2
+	</td>
+	<td>160
+	</td>
+</tr>
+<tr>
+	<td>3
+	</td>
+	<td>160
+	</td>
+</tr>
+<tr>
+	<td>4
+	</td>
+	<td>160
+	</td>
+</tr>
+<tr>
+	<td>5
+	</td>
+	<td>160
+	</td>
+</tr>
+</tbody>
+</table></div>
+
+</div><div class="table"><div class="head" data-toggler="table" >
+                            <h4>20 x 30</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <table><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table></div>
+
+</div></div><div class="block"><h3>Фотокнига в книжной обложке</h3><div class="table"></div><div class="table"><div class="head" data-toggler="table" >
+                            <h4>20 x 20</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <table>
+<tbody>
+<tr>
+	<td>Кол-во разворотов
+	</td>
+	<td>Цена руб.
+	</td>
+</tr>
+<tr>
+	<td>1
+	</td>
+	<td>1600</td>
+</tr>
+<tr>
+	<td>2
+	</td>
+	<td>160
+	</td>
+</tr>
+<tr>
+	<td>3
+	</td>
+	<td>1600</td>
+</tr>
+<tr>
+	<td>4
+	</td>
+	<td>1600</td>
+</tr>
+<tr>
+	<td>5
+	</td>
+	<td>1600</td>
+</tr>
+</tbody>
+</table></div>
+
+</div></div><div class="block"><h3>Печать фото на холсте</h3><div class="table"><div class="table-content">
+    <table><tbody><tr><td>размер холста</td><td>цена руб. за 1 шт</td></tr><tr><td>30х40</td><td>600</td></tr><tr><td>40х60</td><td>1000</td></tr><tr><td>60х80</td><td>2200</td></tr><tr><td>60х90</td><td>2500</td></tr></tbody></table></div>
+
+</div></div><div class="block"><h3>Упаковка</h3><div class="table"><div class="head" data-toggler="table" >
+                            <h4>Пакет</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <p>Пакеты возможно заказать с персонализацией и без.</p><p>Дизайнерская бумага эффалин, иммитлин,печатная продукция </p><table><tbody><tr><td>размер пакета</td><td>цена</td></tr><tr><td>20х15х8</td><td>100</td></tr><tr><td>20х20х10</td><td>120</td></tr><tr><td>30х20х10</td><td>150</td></tr><tr><td>30х30х10</td><td>190</td></tr></tbody></table></div>
+
+</div><div class="table"><div class="head" data-toggler="table" >
+                            <h4>Пакет 001</h4>
+                            <div class="plus">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div><div class="table-content">
+    <table><tbody><tr><td>Размер</td><td>Цена</td></tr><tr><td>11</td><td>22</td></tr><tr><td>11</td><td>22</td></tr></tbody></table></div>
+
+</div><div class="table"></div><div class="table"></div></div><div class="block"><h3>Школьная программа</h3><div class="table"><div class="table-content">
+    <table><tbody><tr><td>Размер</td><td>Цена</td></tr><tr><td>11</td><td>22</td></tr><tr><td>11</td><td>22</td></tr></tbody></table></div>
+
+</div></div><div class="block"><h3>Боксы для фото</h3><div class="table"><div class="table-content">
+    <table><tbody><tr><td>Размер</td><td>Цена</td></tr><tr><td>11</td><td>22</td></tr><tr><td>11</td><td>22</td></tr></tbody></table></div>
+
+</div></div>
+        <div class="block contacts">
+            <div class="image">
+                <div class="lay"></div>
+                <img class="desktop" src="/images/site/icon/2.svg">
+                <img class="mobile" src="/images/site/icon/2-mob.svg">
+            </div>
+            <div class="text_block">
+                                <div class="text">
+                    <h5>Дополнительная информация
+                        о ценах по телефонам:</h5>
+                                        <span class="blue">+7 (846) 73-87-36</span><br>
+                                        <span class="blue">+7 (846) 73-87-36</span><br>
+                                    </div>
+                                <div class="text">
+                    <h5>Присылайте ваши вопросы нам
+                        на почту: </h5>
+                    <span class="blue">photobook@mail.ru</span>
+                </div>
+                                                <div class="text">
+                   <span>г. Москва, <br>
+                       Мы работаем с 9:00 до 21:00 ежедневно</span>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <div class="button-foot">
+        <button data-close="#price-modal" class="btn--white_blue close" >Закрыть
+            <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g transform="translate(-529 -1012)">
+                    <g>
+                        <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                    </g>
+                </g>
+                <defs>
+                    <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                </defs>
+            </svg>
+        </button>
+    </div>
+
+</div>
+<!--Модальное окно требований к макету-->
+<div id="demand-modal" class="demand-modal mdl">
+    <div class="mdl-content">
+                <h2>Требования к макету</h2>
+        <div class="block">
+            <div class="text">
+                <p>Макет — файл, являющийся утвержденным дизайнерским решением, законченным в обработке и подготовленным к печати,
+                    не требующий каких-либо дальнейших изменений.</p><p>Готовыми макетами не являются файлы, созданные в приложениях, не поддерживающие PostScript CMYK цветоделения и не учитывающие особенности допечатной подготовки (например это такие программы как: Microsoft Powerpoint, Microsoft Exel, Microsoft Word и т.п.).
+                    Для создания макета подходят такие программы как: Illustrator, Photoshop, InDesign, Corel Draw.</p>            </div>
+            <h3>Технические требования для подготовки макета:</h3>
+<div class="table">
+    <table>
+                    <tbody><tr>
+                        <td>Форматы</td>
+                        <td>TIFF, JPEG, PSD, PDF</td>
+                    </tr>
+                    <tr>
+                        <td>Разрешение</td>
+                        <td>300 dpi для всей полиграфической продукции, для визиток от 300 dpi до 600 dpi</td>
+                    </tr>
+                    <tr>
+                        <td>Размер макета</td>
+                        <td>Реальный размер + 3 мм с каждой стороны под обрез, для визиток + 2 мм с каждой стороны</td>
+                    </tr>
+                    <tr>
+                        <td>Размер макета</td>
+                        <td>Максимальный размер загружаемого файла не должен превышать 100 МБ</td>
+                    </tr>
+                    <tr>
+                        <td>Насыщенный черный</td>
+                        <td>C80 M60 Y60 K100</td>
+                    </tr>
+                </tbody></table></div>        </div>
+    </div>
+    <div class="button-foot">
+        <button data-close="#demand-modal" class="btn--white_blue close" >Закрыть
+            <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g transform="translate(-529 -1012)">
+                    <g>
+                        <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                    </g>
+                </g>
+                <defs>
+                    <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                </defs>
+            </svg>
+        </button>
+    </div>
+</div>
+<!--Модальное окно условий оплаты и доставки-->
+<div id="condition-modal" class="condition-modal mdl" >
+    <div class="mdl-content">
+                <h2>Условия оплаты и доставки</h2>
+        <div class="block">
+            <div class="text">
+                <p>Личные сведения, которые мы просим посетителя сообщить о себе, ограничиваются фамилией, именем, указанием пола и возраста, адресом электронной почты и номером телефона.
+                    Сбору подлежат только сведения, обеспечивающие возможность поддержки обратной связи с посетителем сайта. Посетитель лично несет ответственность за достоверность личных сведений и вправе
+                    их изменить. На сайте также в автоматическом режиме осуществляется сбор некоторых данных об используемом компьютерном оборудовании и программном обеспечении.</p>            </div>
+                    </div>
+    </div>
+    <div class="button-foot">
+        <button data-close="#condition-modal" class="btn--white_blue close" >Закрыть
+            <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g transform="translate(-529 -1012)">
+                    <g>
+                        <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                    </g>
+                </g>
+                <defs>
+                    <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                </defs>
+            </svg>
+        </button>
+    </div>
+</div>
+<!--Модальное окно вопроса-->
+<div id="question-modal" class="question-modal mdl">
+    <div class="mdl-content">
+        <h2>Ответим на ваши вопросы</h2>
+        <div class="block">
+            <form role="form" class="form-block" id="Contacts2Form" action="/" method="post"><div class="form-content">
+<div class="form-item form rows"><input value="1" name="ContactsForm[parent_id]" id="ContactsForm_parent_id" type="hidden" /><p id="ContactsForm_parent_id_em_" style="display:none" class="help-block"></p><div class="group" id="ContactsForm_settings_feedback_0_gr_"><input class="form-control" name="ContactsForm[settings_feedback][0]" id="ContactsForm_settings_feedback_0" placeholder="" type="text" /><label>Ваше имя:<span class="require">*</span></label></div><p id="ContactsForm_settings_feedback_0_em_" style="display:none" class="help-block"></p><div class="group" id="ContactsForm_settings_feedback_1_gr_"><input class="form-control" id="phone" name="ContactsForm[settings_feedback][1]" placeholder="" type="text" /><label>Номер телефона:<span class="require">*</span></label></div><p id="ContactsForm_settings_feedback_1_em_" style="display:none" class="help-block"></p><div class="group" id="ContactsForm_settings_feedback_2_gr_"><input class="form-control" name="ContactsForm[settings_feedback][2]" id="ContactsForm_settings_feedback_2" placeholder="" type="text" /><label>E-mail:<span class="require">*</span></label></div><p id="ContactsForm_settings_feedback_2_em_" style="display:none" class="help-block"></p><div class="group" id="ContactsForm_settings_feedback_3_gr_"><textarea class="form-control" rows="5" name="ContactsForm[settings_feedback][3]" id="ContactsForm_settings_feedback_3"></textarea><label>Комментарий:<span class="require">*</span></label></div><p id="ContactsForm_settings_feedback_3_em_" style="display:none" class="help-block"></p><input id="ytContactsForm_settings_feedback_4" type="hidden" value="N" name="ContactsForm[settings_feedback][4]" /><input class="checkbox" value="Y" name="ContactsForm[settings_feedback][4]" id="ContactsForm_settings_feedback_4" type="checkbox" /><label class="checkbox-label"><div class="block"><span>Даю согласие на обработку <a target="_blank" href="/politika-konfidencialnosti/">персональных данных</a></span></div></label><p id="ContactsForm_settings_feedback_4_em_" style="display:none" class="help-block"></p><input id="Contacts2Form" type="hidden" /><div class="g-recaptcha" data-sitekey="6Ldf4koUAAAAAIxYZzZ5wszx-CfibNl3-HgRCWVM" data-callback="recaptchaCallbackContacts2Form" data-theme="dark" id="recaptcha_Contacts2Form"></div><p id="ContactsForm_verifycode_em_" style="display:none" class="help-block"></p><div class="btn-box"><button class="btn--blue_orange btn btn-default" name="yt0" type="button" id="yt0"><span class="btn-text">Отправить</span></button></div></div>
+</div></form>
+
+        </div>
+    </div>
+    <div class="button-foot">
+        <button data-close="#question-modal" class="btn--white_blue close" >Закрыть
+            <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g transform="translate(-529 -1012)">
+                    <g>
+                        <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                    </g>
+                </g>
+                <defs>
+                    <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                </defs>
+            </svg>
+        </button>
+    </div>
+</div>
+<!--Модальное окно успешной отправки-->
+<div id="zakaz-modal" class="ok-modal mdl" >
+        <div class="block">
+            <div class="text" >
+                <h2>Заказ отправлен</h2>
+                <p>Спасибо за обращение.
+                    Скоро мы свяжемся с вами для подтверждения заказа.</p>
+            </div>
+            <div class="btns">
+                <button data-close="#zakaz-modal" class="btn--white_blue close" >Закрыть
+                    <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g transform="translate(-529 -1012)">
+                            <g>
+                                <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                            </g>
+                        </g>
+                        <defs>
+                            <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                        </defs>
+                    </svg>
+                </button>
+                <a href="/katalog-izdeliy/" class="btn--orange_blue"><span class="btn-text">В каталог</span></a>
+            </div>
+        </div>
+</div>
+<div id="ok-modal" class="ok-modal mdl" >
+    <div class="block">
+        <div class="text" >
+            <h2>Письмо отправлено</h2>
+            <p>Спасибо за ваше обращение!
+                Мы ответим вам в скором времени.</p>
+        </div>
+        <div class="btns">
+            <button data-close="#ok-modal" class="btn--white_blue close" >Закрыть
+                <svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g transform="translate(-529 -1012)">
+                        <g>
+                            <use xlink:href="#close0_fill" transform="translate(529 1012)" />
+                        </g>
+                    </g>
+                    <defs>
+                        <path id="close0_fill" fill-rule="evenodd" d="M 6.62148 8L 0 1.37853L 1.37853 0L 8 6.62148L 14.6215 0L 16 1.37853L 9.37853 8L 16 14.6215L 14.6215 16L 8 9.37853L 1.37853 16L 0 14.6215L 6.62148 8Z"/>
+                    </defs>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=ru&amp;onload=recaptchaCallback&amp;render=explicit"></script>
+<script type="text/javascript" src="/assets/7838c78b/charming.min.js"></script>
+<script type="text/javascript" src="/assets/7838c78b/demo-ama.js"></script>
+<script type="text/javascript" src="/assets/f320afd/scripts.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('body').on('click','#yt0',function(){jQuery.ajax({'dataType':'json','type':'POST','success':function(data)
+                                {
+                                    //декодируем хтмл сущности в нормальный вид
+                                    function decodeHtml(html) {
+                                        var txt = document.createElement("textarea");
+                                        txt.innerHTML = html;
+                                        return txt.value;
+                                    }
+
+                                    if(data.status=="success")
+                                    {
+                                        //сбрасываем знчение аплоадера и очищаем список
+                                        $("[id^=FineUploader]").find(".qq-upload-list").html("");
+                                        $("[id^=FineUploader]").prev().val("");
+
+                                        $("#Contacts2Form")[0].reset();
+                                        grecaptcha.reset();
+
+                                        $.each(data, function(key, val)
+                                        {
+                                         $("#Contacts2Form").find("label").removeClass("valid-label");
+                                         $("#Contacts2Form").find(".group").removeClass("valid-group");
+                                        });
+                                         $("#question-modal").removeClass("open");
+                                        setTimeout(function(){$("#question-modal").hide()}, 100);
+                                        $("#ok-modal").show();
+                                        setTimeout(function(){$("#ok-modal").addClass("open")}, 100);
+                                    }
+                                    else
+                                    {
+                                        grecaptcha.reset();
+                                        $.each(data, function(key, val)
+                                        {
+                                            $("#Contacts2Form").find("#"+key+"_em_").text(decodeHtml(val)).show();
+                                            $("#Contacts2Form").find("#"+key+"_gr_").addClass("error-group");
+                                        });
+                                    }
+                                },'url':'/feedback/','cache':false,'data':jQuery(this).parents("form").serialize()});return false;});
+jQuery('#Contacts2Form').yiiactiveform({'attributes':[{'id':'ContactsForm_parent_id','inputID':'ContactsForm_parent_id','errorID':'ContactsForm_parent_id_em_','model':'ContactsForm','name':'parent_id','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_settings_feedback_0','inputID':'ContactsForm_settings_feedback_0','errorID':'ContactsForm_settings_feedback_0_em_','model':'ContactsForm','name':'settings_feedback[0]','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_settings_feedback_1','inputID':'ContactsForm_settings_feedback_1','errorID':'ContactsForm_settings_feedback_1_em_','model':'ContactsForm','name':'settings_feedback[1]','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_settings_feedback_2','inputID':'ContactsForm_settings_feedback_2','errorID':'ContactsForm_settings_feedback_2_em_','model':'ContactsForm','name':'settings_feedback[2]','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_settings_feedback_3','inputID':'ContactsForm_settings_feedback_3','errorID':'ContactsForm_settings_feedback_3_em_','model':'ContactsForm','name':'settings_feedback[3]','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_settings_feedback_4','inputID':'ContactsForm_settings_feedback_4','errorID':'ContactsForm_settings_feedback_4_em_','model':'ContactsForm','name':'settings_feedback[4]','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success'},{'id':'ContactsForm_verifycode','inputID':'ContactsForm_verifycode','errorID':'ContactsForm_verifycode_em_','model':'ContactsForm','name':'verifycode','enableAjaxValidation':false,'inputContainer':'div.form-group','errorCssClass':'has-error','successCssClass':'has-success','clientValidation':function(value, messages, attribute) {
+(function(messages){if(!grecaptcha.getResponse()){messages.push('Необходимо заполнить поле «{Введите символы:}».');}})(messages);
+}}],'errorCss':'error'});
+});
+/*]]>*/
+</script>
+</body>
+</html>
