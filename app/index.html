@@ -224,40 +224,54 @@
     </div>
   </div>
 
-  <div class="modal__login active">
+  <div class="modal__login">
     <div class="inner">
       <div class="login__img">
-        <span>Picture</span>
+        <span>
+          <h2>Фотокниги для профессионалов</h2>
+
+          <p>
+            Фотокниги, разработанные специально для фотографов. Безупречное качество печати, 
+            аккуратный переплет и доступные цены. Идеальное решение для оформления вашей работы.
+          </p>
+          <img src="./assets/img/gift.svg" alt>
+          <h4>Дарим скидку -20% для первого заказа</h4>
+        </span>
       </div>
-      <div class="login__block">
-        <div class="button__change">
-            <input id="tab-btn-1" name="tab-btn" type="radio" value checked>
-            <label for="tab-btn-1">Войти</label>
-            <input id="tab-btn-2" name="tab-btn" type="radio" value>
-            <label for="tab-btn-2">Регистрация</label>
+      <div class="tabs">
+          <input id="tab-btn-1" name="tab-btn" type="radio" value checked>
+          <label for="tab-btn-1">Войти</label>
+          <input id="tab-btn-2" name="tab-btn" type="radio" value>
+          <label for="tab-btn-2">Регистрация</label>
+
+        
+        <div id="login">
+          <form class="form" id="form__login" action>
+            <h2>Войти</h2>
+            <p>Введите email и пароль для входа на сайт. </p>
+            <p>Пользователю зарегитрированому на сайте скидка 20%</p>
+            <label for="email">Email:</label>
+            <input id="email__login" name="email" type="email">
+            <label for="password">Пароль:</label>
+            <input id="password__login" name="password" type="password">
+            <button type="submit">Войти</button>
+          </form>
         </div>
-        <form class="form" id="form__login" action>
-          <h2>Войти</h2>
-          <p>Введите email и пароль для входа на сайт. </p>
-          <p>Пользователю зарегитрированому на сайте скидка 20%</p>
-          <label for="email">Email:</label>
-          <input id="email__login" name="email" type="email">
-          <label for="password">Пароль:</label>
-          <input id="password__login" name="password" type="password">
-          <button type="submit">Войти</button>
-        </form>
-        <form class="form" id="form__registration" action>
+        <div id="registration">
+          <form class="form" id="form__registration" action>
           <h2>Регистрация</h2>
-          <p>Введите Имя, email и пароль для регистрации на сайт. </p>
-          <p>Пользователю зарегитрированому на сайте скидка 20%</p>
-          <label for="name">Имя:</label>
-          <input id="name__registration" name="email" type="text">
-          <label for="email">Email:</label>
-          <input id="email__registration" name="email" type="email">
-          <label for="password">Пароль:</label>
-          <input id="password__registration" name="password" type="password">
-          <button type="submit">Войти</button>
-        </form>
+            <p>Введите Имя, email и пароль для регистрации на сайт. </p>
+            <p>Пользователю зарегитрированому на сайте скидка 20%</p>
+            <label for="name">Имя:</label>
+            <input id="name__registration" name="email" type="text">
+            <label for="email">Email:</label>
+            <input id="email__registration" name="email" type="email">
+            <label for="password">Пароль:</label>
+            <input id="password__registration" name="password" type="password">
+            <button type="submit">Зарегистрироваться</button>
+          </form>
+        </div>
+
       </div>
     </div>
   </div>

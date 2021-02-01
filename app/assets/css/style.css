@@ -406,13 +406,80 @@ button {
 .login__img {
   height: 100%;
   flex: 0 0 50%;
-  font-size: 0;
+
 }
 
-.login__block {
+.tabs {
   width: 100%;
   height: 100%;
   flex: 1 0 30%;
+  background: rgb(64, 66, 71);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+  font-weight: bold;
+  cursor: default;
+  
+}
+
+.tabs>div {
+  display: none;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+#tab-btn-1:checked~#login,
+#tab-btn-2:checked~#registration{
+  display: block;
+}
+
+.tabs>label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 2px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.tabs>label:first-of-type {
+  margin-left: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form p:last-child {
+  margin-bottom: 20px;
+}
+
+input{
+  margin-bottom: 20px;
+  width: 80%;
+}
+/* .button__change {
+  padding-top: 3em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 
 .button__change>input[type="radio"] {
@@ -429,10 +496,22 @@ button {
   border: 1px solid #eee;
 }
 
-#tab-btn-1:checked~#content-1,
-#tab-btn-2:checked~#content-2 {
+
+
+
+.login__block>#form__registration,
+.login__block>#form__login{
+  display: none;
+  border: 1px solid #eee;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+#tab-btn-1:checked~#form__login,
+#tab-btn-2:checked~#form__registration {
   display: block;
-}  
+} */
+
 /*                                                                                  Модальное окно конструктора                                      */
 
 
