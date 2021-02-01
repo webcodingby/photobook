@@ -224,19 +224,17 @@
     </div>
   </div>
 
-  <div class="modal__login">
+  <div class="modal__login active">
     <div class="inner">
-      <div class="login__img">
-        <span>
-          <h2>Фотокниги для профессионалов</h2>
+      <div class="login__info">
+          <h2 class="info__title">Фотокниги для профессионалов</h2>
 
-          <p>
+          <p class="info__text">
             Фотокниги, разработанные специально для фотографов. Безупречное качество печати, 
             аккуратный переплет и доступные цены. Идеальное решение для оформления вашей работы.
           </p>
-          <img src="./assets/img/gift.svg" alt>
-          <h4>Дарим скидку -20% для первого заказа</h4>
-        </span>
+          <img class="info__img" src="./assets/img/gift.svg" alt>
+          <h4 class="info__sale">Дарим скидку -20% для первого заказа</h4>
       </div>
       <div class="tabs">
           <input id="tab-btn-1" name="tab-btn" type="radio" value checked>
@@ -250,11 +248,9 @@
             <h2>Войти</h2>
             <p>Введите email и пароль для входа на сайт. </p>
             <p>Пользователю зарегитрированому на сайте скидка 20%</p>
-            <label for="email">Email:</label>
-            <input id="email__login" name="email" type="email">
-            <label for="password">Пароль:</label>
-            <input id="password__login" name="password" type="password">
-            <button type="submit">Войти</button>
+            <input id="email__login" name="email" type="email" placeholder="E-mail">
+            <input id="password__login" name="password" type="password" placeholder="Пароль">
+            <button class="submit__btn" type="submit">Войти</button>
           </form>
         </div>
         <div id="registration">
@@ -268,7 +264,7 @@
             <input id="email__registration" name="email" type="email">
             <label for="password">Пароль:</label>
             <input id="password__registration" name="password" type="password">
-            <button type="submit">Зарегистрироваться</button>
+            <button class="submit__btn" type="submit">Зарегистрироваться</button>
           </form>
         </div>
 

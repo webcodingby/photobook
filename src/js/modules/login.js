@@ -3,7 +3,6 @@ const login = () => {
     const trigger = document.querySelectorAll(triggerSelector),
       modal = document.querySelector(modalSelector),
       close = document.querySelector(closeSelector);
-
   }
 
   
